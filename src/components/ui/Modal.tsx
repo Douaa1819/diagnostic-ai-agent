@@ -1,4 +1,3 @@
-import React from "react"
 import "../../css/Modal.css" 
 
 export function Modal({ show, onClose, url }: { show: boolean; onClose: () => void; url: string }) {
